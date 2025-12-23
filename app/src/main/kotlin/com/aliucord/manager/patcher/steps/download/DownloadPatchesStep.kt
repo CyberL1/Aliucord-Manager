@@ -82,6 +82,6 @@ class DownloadPatchesStep : DownloadStep(), KoinComponent {
     }
 
     private companion object {
-        const val URL = "https://builds.aliucord.com/patches.zip"
+        const val URL = "https://github.com/CyberL1/Aliucord/raw/refs/heads/builds/patches.zip"
     }
 }
